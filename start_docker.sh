@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-#docker pull ermaker/keras-jupyter
-
-docker run -d -p 8888:8888 -e KERAS_BACKEND=tensorflow -v $(pwd)/notebook:/notebooks tensorflow/tensorflow
+docker run --rm -it -p 8888:8888 -e KERAS_BACKEND=tensorflow \
+  -v $(pwd)/notebooks:/notebooks -v $(pwd)/data:/data \
+  -v $(pwd)/models:/models mihailrc/deep-learning
