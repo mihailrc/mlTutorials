@@ -2,9 +2,9 @@
 A collection of Machine Learning tutorials
 
 * Basics:
-  * MNIST with Keras
+  * [MNIST with Keras](notebooks/deepLearning/mnist_mlp.ipynb)
 * Sentiment Analysis
-  * IMDB with Keras  
+  * [IMDB with Keras](notebooks/deepLearning/Sentiment%20Analysis%20with%20Keras%20and%20CNN.ipynb)  
 
 
 #### TODO
