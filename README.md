@@ -8,5 +8,5 @@ A collection of Machine Learning tutorials
 
 Getting started
 * build_docker_image.sh - this builds the docker image with the lates TensorFlow version, python 3 and jupyter notebooks
-* open the browser using the link specified when the container starts
+* start_docker.sh - open the browser using the link specified when the container starts
 * click on notebooks and navigate to MNIST tutorial   
