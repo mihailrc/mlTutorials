@@ -1,4 +1,4 @@
 **/models
-**/data
 **/.ipynb_checkpoints
+**/data/traffic-signs-data/*.p
 .idea
